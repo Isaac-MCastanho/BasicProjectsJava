@@ -1,6 +1,6 @@
 package atividade1;
 
-public class Cliente {
+public abstract class Cliente {
 	long idCliente;
 	String nome;
 	Integer idade;
@@ -44,13 +44,13 @@ public class Cliente {
 		this.telefone = telefone;
 	}
 	public void visualizar() {
-		System.out.println("*****************************");
+		System.out.println("\n\n*****************************");
 		System.out.println("   Informações do cliente:   ");
 		System.out.println("*****************************");
-		System.out.printf("        Id: %d  ",this.idCliente);
-		System.out.printf("\n       Nome: %s  ",this.nome);
-		System.out.printf("\n      Idade: %d  ",this.idade);
+		System.out.printf("      Id: %d  ",this.idCliente);
+		System.out.printf("\n      Nome: %s  ",this.nome);
+		System.out.printf("\n      Idade: %d anos ",this.idade);
 		System.out.printf("\n      Email: %s  ",this.email);
-		System.out.printf("\n   Telefone: %d  \n\n",this.telefone);
+		System.out.printf("\n      Telefone: %d  ",this.telefone);
 	}
 }
