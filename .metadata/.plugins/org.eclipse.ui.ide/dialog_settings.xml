@@ -38,6 +38,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Usuário\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\outros"/>
 			<item value="C:\Users\Usuário\Desktop\Projects\projetos-java\GenFlix"/>
 			<item value="C:\Users\Usuário\Desktop\Projects\projetos-java\BancoGeneration"/>
 		</list>
