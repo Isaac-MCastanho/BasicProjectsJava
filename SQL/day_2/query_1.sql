@@ -45,7 +45,7 @@ SELECT * FROM tb_personagens
 WHERE ataque > 2000;
 
 SELECT * FROM tb_personagens
-WHERE ataque < 2000;
+WHERE ataque < 2000 && ataque > 1000;
 
 SELECT * FROM tb_personagens
 WHERE nome LIKE '%c%';
